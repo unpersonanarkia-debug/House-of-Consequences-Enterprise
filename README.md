@@ -32,7 +32,21 @@ Malli auttaa tunnistamaan:
 - ❌ Ei juridinen tai normatiivinen arviointityökalu  
 - ❌ Ei datankeruualusta ilman erillistä toteutusta  
 
-## Repositoryn rakenne (kehitteillä)
+## Repositoryn rakenne 
+
+
+House-of-Consequences/
+├─ web/
+│   ├─ index.html              # Kanoninen malli (staattinen)
+│   ├─ ympyra-kaavio.html      # Rakenteellinen visualisointi
+│   └─ ympyra-kaavio-interaktiivinen.html
+├─ docs/
+│   ├─ CONCEPT.md              # Käsitteellinen perusta
+│   ├─ ARCHITECTURE.md         # Rakenteet ja komponentit
+│   ├─ INTERPRETATION.md       # Tulkintaohjeet
+│   └─ GOVERNANCE.md           # Mallin käyttöperiaatteet
+├─ LICENSE
+└─ README.md
 
 
 ## Käyttökohteita
